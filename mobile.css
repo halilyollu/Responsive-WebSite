@@ -1,0 +1,200 @@
+@media (max-width:500px) {
+    .div-1{
+        height: 10rem;
+    }
+    
+    .div-1 ul{
+        font-size: 45%;
+    }
+
+    .div-1 ul li:hover{
+        opacity: 0.5;
+        transform: rotate(5deg);
+        font-size: 0.5rem;
+    
+    }
+
+    .div-1-p{
+        font-size: 0.5rem;
+    }
+
+    .div-1-header h1{
+        font-size: 50%;
+    }
+
+    .meet-us{
+        font-size: 50%;
+    }
+
+    .div-3{
+        min-height: 7rem;
+    }
+
+    .div-4{
+        font-size: 50%;
+    }
+
+    .service-box{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .box{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .box-dif{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        padding: 5%;
+        margin-bottom: 1rem;
+    }
+
+    .box p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box-dif p{
+        margin: 0;
+    }
+
+    .div-6{
+        min-height: 5rem;
+    }
+
+    .div-6-check{
+        width: 50%;
+    }
+
+    #check-our-shop{
+        font-size: 50%;
+    }
+
+    .div-7{
+        font-size: 50%;
+    }
+
+    .div-7-box{
+        height: 5rem;
+    }
+
+    .partners p{
+        font-size: 0.5rem;
+    }
+
+    .div-8{
+        height: 8rem;
+    }
+
+    .div-8-logo{
+        padding: 3% 0;
+    }
+
+    .firma-logo{
+        width: 10%;
+    }
+
+    .firma-logo img{
+        height: 30%;
+    }
+
+    #microsoft{
+        height: 15%;
+    }
+
+    .div-9{
+        font-size: 50%;
+    }
+
+    .div-9-person{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .div-9-box{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .div-9-box p{
+        font-size: 140%;
+    }
+
+    #div-9-box-dif{
+        width: 50%;
+    }
+
+    #div-9-box-dif h4{
+        font-size: 0.5rem;
+    }
+
+    #div-9-box-dif p{
+        margin: 10%;
+        font-size: 2rem;
+    }
+
+    .div-10{
+        font-size: 50%;
+    }
+
+    .div-11{
+        font-size: 50%;
+        height: 40rem;
+    }
+
+    .contact-us-content{
+        flex-direction: column;
+    }
+
+    .contact-us-left{
+        margin-top: 1rem;
+        width: 100%;
+        height: 10rem;
+    }
+
+    .contact-us-left img{
+        height: 1rem;
+        left: 1.5rem;
+    }
+
+    #address{
+        line-height: 1rem;
+        font-size: 0.8rem;
+        height: auto;
+    }
+
+    .social{
+        width: 50%;
+        bottom: 10%;
+    }
+
+    .contact-us-left img{
+        height: 0.7rem;
+    }
+
+    .contact-us-right{
+        width: 100%;
+        margin: 5%;
+    }
+
+    .contact-us-right input{
+        width: 35%;
+    }
+    .contact-us-right textarea{
+        width: 85%;
+    }
+
+    .footer-left{
+        font-size: 50%;
+    }
+
+    .footer-right{
+        font-size: 50%;
+    }
+}

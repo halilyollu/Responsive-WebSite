@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div-all{
+    background-color: #ffffff;
+}
+
+.div-1{
+    background: url(./img/header-bg.png) fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.div-1-navbar{
+    background-color: #000000;
+    min-height: 2rem;
+}
+
+.div-1 ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
+
+.div-1 ul li{
+    margin: 2% 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.div-1 ul li:hover{
+    opacity: 0.5;
+    transform: rotate(5deg);
+    font-size: 1.2rem;
+
+}
+
+.div-1 ul li a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+
+.div-1-p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#div-1-hr{
+    display: flex;
+    margin: 1% 47.5%;
+    width: 5%;
+    color: #c59a6d;
+    size: 3px;
+}
+
+.div-1-header{
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 10% 35%;
+    transition: background-color 1s;
+}
+
+.div-1-header:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.div-1-header h1{
+    display: flex;
+    padding: 5%;
+}
+
+.div-1-scroll-down{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div-1-scroll-down:hover{
+    opacity: 0.8;
+}
+
+.div-2{
+    height: auto;
+    width: 40%;
+    margin: 5% 30%;
+}
+
+#div-2-h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#div-2-hr{
+    display: flex;
+    width: 5%;
+    margin: 0 47.5%;
+    color: #c59a6d;
+    margin-top: 2%;
+    size: 3px;
+}
+
+#div-2-p{
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.div-2-scroll-down{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div-2-scroll-down:hover{
+    opacity: 0.5;
+}
+
+.div-3{
+    background: url(./img/div-3-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 25rem;
+    cursor: pointer;
+}
+
+.div-3:hover{
+    opacity: 0.7;
+}
+
+.div-4{
+    display: flex;
+    text-align: center;
+    height: auto;
+    width: 40%;
+    margin: 5% 30%;
+}
+
+#div-4-h2{
+    display: flex;
+    justify-content: center;
+}
+
+#div-4-hr{
+    display: flex;
+    width: 5%;
+    margin: 0 47.5%;
+    color: #c59a6d;
+    margin-top: 2%;
+}
+
+#div-4-p{
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.div-5{
+    width: 100%;
+    display: flex;
+}
+
+.service-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+.box{
+    width: 10%;
+    border: 1px solid #8e9297;
+    color: #8e9297;
+    text-align: center;
+    padding: 5% 5%;
+    display: inline-block;
+    font-size: 0.7rem;
+    height: auto;
+}
+
+.box-dif{
+    width: 10%;
+    border: 1px solid #c59a6d;
+    color: #c59a6d;
+    text-align: center;
+    padding: 10% 5%;
+    display: inline-block;
+    font-size: 0.7rem;
+    height: 50%;
+}
+
+.box-dif p{
+    color: black;
+    margin-top: 20%;
+    line-height: 1.5rem;
+}
+
+.box-dif h3{
+    margin-top: 20%;
+}
+
+.box-dif img{
+    margin-top: 1%;
+}
+
+.box p{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    line-height: 1.5rem;
+}
+
+.box h3{
+    margin-top: 20%;
+}
+
+.div-5-scroll-down{
+    display: block;
+}
+
+.div-6{
+    background-color: #282f35;
+    height: auto;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-6-check{
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-6-check:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#check-our-shop{
+    border: 1px solid #776551;
+    padding: 5% 20%;
+    font-size: 70%;
+}
+
+.div-7{
+    height: auto;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.div-7-projjects{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#div-7-p{
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0 30%;
+}
+
+.div-7-our-latest-projects{
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.div-7-box{
+    width: 20%;
+    height: 15rem;
+    cursor: pointer;
+}
+
+.div-7-box img{
+    width: 100%;
+    display: inline-block;
+}
+
+#box1{
+    background-image: url(./img/bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#box2{
+    background-image: url(./img/bg2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#box3{
+    background-image: url(./img/bg3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#box4{
+    background-image: url(./img/project4-hover.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#box5{
+    background-image: url(./img/bg5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#box1:hover{
+    background-image: url(./img/project1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+}
+
+#box2:hover{
+    background-image: url(./img/project2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+}
+
+#box3:hover{
+    background-image: url(./img/project3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+}
+
+#box4:hover{
+    background-image: url(./img/project4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+}
+
+#box5:hover{
+    background-image: url(./img/project5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+}
+
+.div-7-button{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-7-button-p{
+    border: 1px solid #c59a6d;
+    display: inline-block;
+    background-color: #c59a6d;
+    color: white;
+    font-size: 90%;
+    padding: 1% 2%;
+}
+
+.div-7-button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.div-7-scroll-down{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-7-scroll-down:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.div-8{
+    background: url(./img/div-8-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30rem;
+}
+
+.div-8-logo{
+    display: flex;
+    justify-content: space-around;
+    padding: 8% 0;
+    transition: all .5s ease-in-out;
+}
+
+.firma-logo:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(.5);
+        -webkit-transform: scale(.5);
+}
+
+.div-8 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 5%;
+}
+
+.div-8 hr{
+    display: flex;
+    margin: 1% 47.5%;
+    width: 5%;
+    color: #c59a6d;
+    size: 3px;
+}
+
+.div-9{
+    width: 100%;
+}
+
+.div-9 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.div-9 hr{
+    display: flex;
+    margin: 1% 47.5%;
+    width: 5%;
+    color: #c59a6d;
+    size: 3px;
+}
+
+.div-9 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 0 30%;
+    text-align: center;
+}
+
+.div-9-person{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.div-9-box{
+    border: solid 1px #a9acae;
+    width: 15%;
+}
+
+.div-9-box img{
+    margin-top: 10%;
+}
+
+.div-9-box p{
+    margin-top: 10%;
+}
+
+.div-9-box hr{
+    margin-top: 5%;
+    margin-bottom: 30%;
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    size: 3px;
+    color: #c59a6d;
+}
+
+#div-9-box-dif{
+    border: solid 1px #c59a6d;
+    width: 10%;
+    color: #c59a6d;
+}
+
+#div-9-box-dif h4{
+    margin-top: 50%;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#div-9-box-dif p{
+    margin-top: 30%;
+    font-size: 330%;
+}
+
+.div-9-box:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#div-9-box-dif:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.div-10{
+    background: url(./img/div-10-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+    margin-top: 5%;
+    height: 25rem;
+}
+
+.div-10 h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.div-10 hr{
+    display: flex;
+    margin: 1% 47.5%;
+    width: 5%;
+    color: #c59a6d;
+    size: 3px;
+}
+
+.div-10 p{
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0 30%;
+}
+
+#craig{
+    display: flex;
+    justify-content: center;
+}
+
+.slider{
+    display: flex;
+    padding: 4% 0;
+    margin: 0 47.5%;
+}
+
+.slider:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.div-11{
+    background-color: #282f35;
+    color: white;
+    height: 40rem;
+}
+
+.contact-us{
+    height: 30rem;
+}
+
+.contact-us-header h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.contact-us-header hr{
+    display: flex;
+    margin: 1% 47.5%;
+    width: 5%;
+    color: #c59a6d;
+    size: 3px;
+}
+
+.contact-us-left{
+    position: relative;
+    margin-top: 5rem;
+    height: 20rem;
+    width: 30%;
+}
+
+.contact-us-left p{
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    height: 10rem;
+}
+
+#address{
+    line-height: 2rem;
+    width: 50%;
+}
+
+#pointer{
+    position: absolute;
+}
+
+.social{
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    bottom: 20%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.contact-us-right{
+    width: 40%;
+    margin-top: 5rem;
+}
+
+.contact-us-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-us-right input{
+    padding:  0.5rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+#send{
+    display: block;
+    color: white;
+    width: 20%;
+    margin-top: 10%;
+}
+
+#send:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #282f35;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

@@ -1,0 +1,118 @@
+@media (max-width:768px) {
+    .div-1{
+        background-size: contain;
+        height: 20rem;
+    }
+    
+    .div-1-navbar{
+        width: 100%;
+    }
+
+    .div-1-header h1{
+        font-size: 100%;
+    }
+
+    .div-1-scroll-down{
+        display: none;
+    }
+
+    .div-1-navbar a{
+        color: white;
+        background-color: black;
+        display: block;
+    }
+
+    .div-1-navbar a .icon{
+        position: absolute;
+        background-color: transparent;
+        left: 0.5rem;
+        top: 2rem;
+        color: white;
+        display: block;
+        width: 5%;
+        height: auto;
+    }
+
+    .div-2-scroll-down{
+        display: none;
+    }
+
+    .div-3{
+        min-height: 15rem;
+    }
+
+    .box{
+        font-size: 0.5rem;
+    }
+
+    .box-dif{
+        font-size: 0.5rem;
+    }
+
+    .div-7-box{
+        height: 10rem;
+    }
+
+    .div-7-scroll-down{
+        display: none;
+    }
+
+    .div-8{
+        background-size: contain;
+        height: 15rem;
+    }
+    
+    .partners p{
+        font-size: 1rem;
+    }
+
+    .firma-logo img{
+        height: 50%;
+    }
+
+    #microsoft{
+        height: 25%;
+    }
+
+    .div-9-box{
+        font-size: 80%;
+    }
+
+    #div-9-box-dif{
+        font-size: 70%;
+        width: 15%;
+    }
+
+    .div-9-box img{
+        height: 25%;
+    }
+
+    .div-10{
+        background-size: 100% 100%;
+        height: auto;
+    }
+
+    .slider img{
+        width: 100%;
+    }
+
+    .div-11{
+        height: 60rem;
+    }
+
+    .contact-us-left{
+        font-size: 60%;
+    }
+
+    .social{
+        height: 4%;
+    }
+
+    .contact-us-right input{
+        width: 30%;
+    }
+
+    .contact-us-right textarea{
+        width: 80%;
+    }
+}
